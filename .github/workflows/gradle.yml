@@ -29,6 +29,6 @@ jobs:
         distribution: 'temurin'
 
     - name: Build with Gradle Wrapper
-      run:
+      run: |
         ls -al
         ./gradlew test
