@@ -28,7 +28,7 @@ jobs:
         java-version: '22'
         distribution: 'temurin'
 
-    - name: Build with Gradle Wrapper
+    - name: Test
       run: |
-        ls -al
+        chmod 755 ./gradlew
         ./gradlew test
