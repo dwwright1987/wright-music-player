@@ -20,6 +20,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Wright Music Player"
-include(":mobile")
-include(":automotive")
-include(":shared")
+include(":app")
